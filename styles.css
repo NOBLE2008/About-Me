@@ -1,0 +1,72 @@
+body {
+  background-image: url(assets/images/download-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+h1,
+h2 {
+  color: yellow;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+section > p {
+  color: whitesmoke;
+  text-align: center;
+  font-size: large;
+}
+b{
+    color: skyblue;
+}
+button {
+  width: 100px;
+  background: linear-gradient(to top, blue, yellow);
+  opacity: 0.8;
+  border: 0;
+  border-radius: 25%;
+  margin-bottom: 5%;
+  height: 40px;
+  color: white;
+}
+button:hover {
+  background-color: yellow;
+  opacity: 1;
+}
+.a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+#about {
+  margin-bottom: 5%;
+}
+p {
+  margin-top: 20px;
+  color: gray;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+  height: 30px;
+  background-color: yellow;
+}
+@media (min-width: 1400px) {
+  h1,
+  h2 {
+    font-size: xx-large;
+  }
+  p {
+    font-size: x-large;
+  }
+  .content {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1100px) {
+  p {
+    font-size: x-large;
+  }
+}
